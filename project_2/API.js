@@ -170,30 +170,6 @@ const toCurr = document.querySelector(".to select");
 const msg = document.querySelector(".MSG");
 
 
-
-// for (code in countryList) {
-//     console.log(code, countryList[code]);
-// }
-
-// for (let select of dropdowns) {
-//     for (currCode in countryList) {
-//          let newop = document.createElement("option");
-//          newop.innerText = currCode;
-//          newop.value = currCode;
-//         if (select.name === "from" && currCode === "USD" ) {
-//             newop.selected = "selected";
-//         }
-//         if (select.name === "to" && currCode === "INR")  {
-//              newop.selected = "selected";
-//          } 
-//          select.append(newop); 
-//     }
-    
-//     select.addEventListener("change", (evt) => {
-//         updateFlag(evt.target);
-//     });
-// }
-
 for (let select of dropdowns) {
   for (currCode in countryList) {
     let newOption = document.createElement("option");
